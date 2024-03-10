@@ -1,0 +1,5 @@
+if(EXISTS "/Users/aakash_personal/Desktop/TexasA&M/TAMU/CSCE 221/Rewritten/PA1/build/linear_test[1]_tests.cmake")
+  include("/Users/aakash_personal/Desktop/TexasA&M/TAMU/CSCE 221/Rewritten/PA1/build/linear_test[1]_tests.cmake")
+else()
+  add_test(linear_test_NOT_BUILT linear_test_NOT_BUILT)
+endif()
