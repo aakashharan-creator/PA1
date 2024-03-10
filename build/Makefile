@@ -172,6 +172,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named linked_test
+
+# Build rule for target.
+linked_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linked_test
+.PHONY : linked_test
+
+# fast build rule for target.
+linked_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linked_test.dir/build.make CMakeFiles/linked_test.dir/build
+.PHONY : linked_test/fast
+
+#=============================================================================
 # Target rules for targets named linear_test
 
 # Build rule for target.
@@ -278,6 +291,7 @@ linear_test.o: linear_test.cpp.o
 
 # target to build an object file
 linear_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linked_test.dir/build.make CMakeFiles/linked_test.dir/linear_test.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_test.dir/build.make CMakeFiles/linear_test.dir/linear_test.cpp.o
 .PHONY : linear_test.cpp.o
 
@@ -286,6 +300,7 @@ linear_test.i: linear_test.cpp.i
 
 # target to preprocess a source file
 linear_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linked_test.dir/build.make CMakeFiles/linked_test.dir/linear_test.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_test.dir/build.make CMakeFiles/linear_test.dir/linear_test.cpp.i
 .PHONY : linear_test.cpp.i
 
@@ -294,6 +309,7 @@ linear_test.s: linear_test.cpp.s
 
 # target to generate assembly for a file
 linear_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linked_test.dir/build.make CMakeFiles/linked_test.dir/linear_test.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_test.dir/build.make CMakeFiles/linear_test.dir/linear_test.cpp.s
 .PHONY : linear_test.cpp.s
 
@@ -316,6 +332,7 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... linear_test"
+	@echo "... linked_test"
 	@echo "... double_test.o"
 	@echo "... double_test.i"
 	@echo "... double_test.s"

@@ -3,10 +3,11 @@
 #include <stack>
 #include <cstdlib>
 
-#include "StackArrayDouble.h"
+#include "StackLinkedList.h"
 
 using namespace std;
-class StackArrayDoubleTest : public testing::Test
+
+class StackLinkedListTest : public testing::Test
 {
 protected:
     void SetUp() override
@@ -16,23 +17,23 @@ protected:
             stack2.push(i);
     }
 
-    StackArrayDouble<int> stack1;
-    StackArrayDouble<int> stack2;
+    StackLinkedList<int> stack1;
+    StackLinkedList<int> stack2;
     size_t size;
 };
 
-TEST_F(StackArrayDoubleTest, isEmptyInitially)
+TEST_F(StackLinkedListTest, isEmptyInitially)
 {
     ASSERT_EQ(stack1.size(), 0) << "Expected empty stack initially, got non zero size.\n";
 }
 
 
-TEST_F(StackArrayDoubleTest, popThrowsExceptionWhenEmpty)
+TEST_F(StackLinkedListTest, popThrowsExceptionWhenEmpty)
 {
     ASSERT_THROW(stack1.pop(), out_of_range) << "Expected pop to throw out of range error, but got nothing.\n";
 }
 
-TEST_F(StackArrayDoubleTest, correctSizeAtPush)
+TEST_F(StackLinkedListTest, correctSizeAtPush)
 {
     for (int i = 0; i < size; i++)
     {
@@ -42,13 +43,13 @@ TEST_F(StackArrayDoubleTest, correctSizeAtPush)
     }
 }
 
-TEST_F(StackArrayDoubleTest, isEmptyWorks) {
+TEST_F(StackLinkedListTest, isEmptyWorks) {
     ASSERT_EQ(stack1.isEmpty(), true) << "Expected isEmpty() to return true when empty\n";
     stack1.push(1);
     ASSERT_EQ(stack1.isEmpty(), false) << "Expected isEmpty() to return false when not empty\n";
 }
 
-TEST_F(StackArrayDoubleTest, topThrowsExceptionWhenEmpty)
+TEST_F(StackLinkedListTest, topThrowsExceptionWhenEmpty)
 {
     ASSERT_THROW(stack1.top(), out_of_range) << "Expected top to throw out of range error, but got nothing.\n";
 
@@ -58,7 +59,7 @@ TEST_F(StackArrayDoubleTest, topThrowsExceptionWhenEmpty)
     ASSERT_THROW(stack1.top(), out_of_range) << "Expected top to throw out of range error, but got nothing.\n";
 }
 
-TEST_F(StackArrayDoubleTest, topCorrectValue)
+TEST_F(StackLinkedListTest, topCorrectValue)
 {
     for (int i = size - 1; i >= 0; i--)
     {
@@ -67,7 +68,7 @@ TEST_F(StackArrayDoubleTest, topCorrectValue)
     }
 }
 
-TEST_F(StackArrayDoubleTest, topCorrectValueRandom)
+TEST_F(StackLinkedListTest, topCorrectValueRandom)
 {
     stack<int> groundTruth;
     srand(1);

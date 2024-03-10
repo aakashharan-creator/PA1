@@ -11,3 +11,8 @@ double_test:
 
 linear_test:
 	cd build; ./linear_test --gtest_fail_fast
+
+linked_test:
+	cd build; ./linked_test --gtest_fail_fast
+
+score: set double_test linear_test linked_test

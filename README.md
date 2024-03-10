@@ -1,14 +1,15 @@
 # Programming Assignment 1
 ## Stacks in three ways
 
-This programming assignment will have you writing the stack data structure in three different approaches. You will be expected to complete a report comparing your three implementations. There is an optional bonus assignment as well for 5%.
+This programming assignment will have you writing the stack data structure in three different approaches with multiple underlying data structures. You will be expected to complete a report comparing your three implementations. This assignment is intended to provide a deeper understanding of stacks and provide insight into how different implementations can affect the theoretical performance. There is an optional bonus assignment as well for 5%.
 
 ## Table of Contents
 
 - [Project Description](#project-description)
-  - [Function Description](#function-description)
+  - [Functionality Requirements](#functionality-requirements)
   - [Memory Checks](#memory-checks)
 - [Testing and Validation](#testing-and-validation)
+- [Submission Guidelines](#submission-guidelines)
 
 ## Project Description
 
@@ -24,7 +25,7 @@ virtual T pop() = 0;
 virtual void push(const T &e) = 0;
 ```
 
-### Function Description
+### Functionality Requirements 
 
 ```cpp
 virtual bool isEmpty() = 0;
@@ -39,12 +40,12 @@ virtual int size() = 0;
 ```cpp
 virtual T &top() = 0;
 ```
-* `top` returns the value of the item presently at the top of the stack i.e. the most recently pushed value. If the stack is empty throw a `out_of_range` exception
+* `top` returns the value of the item presently at the top of the stack i.e. the most recently pushed value. If the stack is empty throw an `out_of_range` exception
 
 ```cpp
 virtual T pop() = 0;
 ```
-* `pop` returns the value at the top of the stack, similar to `top` but also removes this item from the stack.
+* `pop` returns the value at the top of the stack, similar to `top` but also removes this item from the stack. You are also expected to throw an `out_of_range` exception if the stack is empty
 
 ```cpp
 virtual void push(const T& e) = 0
@@ -68,10 +69,15 @@ The provided `makefile` grants you some testing functionality with the following
 * Runs the test cases for the StackArrayDouble implementation along with a memory check
 
 `make linear_test`
-* Runs the test cases for the StackArrayDouble implementation along with a memory check
+* Runs the test cases for the StackArrayLinear implementation along with a memory check
 
 `make linked_test`
-* Runs the test cases for the StackArrayDouble implementation along with a memory check
+* Runs the test cases for the StackLinkedList implementation along with a memory check
 
 `make all`
 * Runs all test cases and provides a final score for this assignment
+
+## Submission Guidelines
+
+1. Push the finished source code files to your repository
+2. Include a PDF of your report explaining your analysis
