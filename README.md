@@ -11,9 +11,9 @@ This programming assignment will have you writing the stack data structure in th
 
 ## Project Description
 
-In this programming assignment, **you are expected to modify StackArrayDouble.h, StackArrayLinear.h and StackLinkedList.h**. You are provided with an additional file **AbstractStack.h** which defines the base class from which the other three implementations are derived from.
+In this programming assignment, **you are only expected to modify StackArrayDouble.h, StackArrayLinear.h and StackLinkedList.h**. You are provided with an additional file **AbstractStack.h** which defines the base class from which the other three implementations are derived.
 
-The following functions have been defined in the abstract class and must be implemented in each of the three derived implementations. This is where you come in :)
+The following functions have been defined in the abstract class and must be implemented in each of the three derived implementations along with their respective constructors and destructors. This is where you come in :smiley:
 
 ```cpp
 virtual bool isEmpty() = 0;
@@ -23,14 +23,8 @@ virtual T pop() = 0;
 virtual void push(const T &e) = 0;
 ```
 
-## Installation
+### Function Description
+
+## Testing and Validation
 
 Explain how to install and set up the project on a local machine. Include any dependencies or prerequisites that need to be installed.
-
-## Usage
-
-Provide instructions on how to use the project, including any command-line arguments, input/output formats, or specific steps to follow.
-
-## Contributing
-
-Explain how others can contribute to the project, such as reporting issues, suggesting improvements, or submitting pull requests.
