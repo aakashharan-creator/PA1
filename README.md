@@ -9,6 +9,7 @@ This programming assignment will have you writing the stack data structure in th
   - [Functionality Requirements](#functionality-requirements)
   - [Memory Checks](#memory-checks)
 - [Testing and Validation](#testing-and-validation)
+- [Report Requirements](#report-requirements)
 - [Submission Guidelines](#submission-guidelines)
 
 ## Project Description
