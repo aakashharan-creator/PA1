@@ -1,8 +1,3 @@
-help:
-	@echo "Run 'make set' to set up testing"
-	@echo "Run 'make double_test' to test implementation of StackArrayDouble"
-	@echo "Run 'make linear_test' to test implementation of StackArrayLinear"
-
 set: 
 	cd build; make
 
@@ -14,5 +9,3 @@ linear_test:
 
 linked_test:
 	cd build; ./linked_test --gtest_fail_fast
-
-score: set double_test linear_test linked_test

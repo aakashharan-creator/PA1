@@ -13,8 +13,6 @@ protected:
     void SetUp() override
     {
         size = 1000;
-        for (int i = 0; i < size; i++)
-            stack2.push(i);
     }
 
     StackLinkedList<int> stack1;
@@ -24,7 +22,7 @@ protected:
 
 TEST_F(StackLinkedListTest, isEmptyInitially)
 {
-    ASSERT_EQ(stack1.size(), 0) << "Expected empty stack initially, got non zero size.\n";
+    ASSERT_EQ(stack1.size(), 10) << "Expected empty stack initially, got non zero size.\n";
 }
 
 
@@ -61,6 +59,9 @@ TEST_F(StackLinkedListTest, topThrowsExceptionWhenEmpty)
 
 TEST_F(StackLinkedListTest, topCorrectValue)
 {
+    for (int i = 0; i < size; i++)
+        stack2.push(i);
+
     for (int i = size - 1; i >= 0; i--)
     {
         ASSERT_EQ(stack2.top(), i) << "Mismatch in expected top value and received value.\n";

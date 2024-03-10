@@ -23,9 +23,8 @@ protected:
 
 TEST_F(StackArrayDoubleTest, isEmptyInitially)
 {
-    ASSERT_EQ(stack1.size(), 0) << "Expected empty stack initially, got non zero size.\n";
+    ASSERT_EQ(stack1.size(), 0) << "Expected empty stack initially, but got non zero size.\n";
 }
-
 
 TEST_F(StackArrayDoubleTest, popThrowsExceptionWhenEmpty)
 {
@@ -42,7 +41,8 @@ TEST_F(StackArrayDoubleTest, correctSizeAtPush)
     }
 }
 
-TEST_F(StackArrayDoubleTest, isEmptyWorks) {
+TEST_F(StackArrayDoubleTest, isEmptyWorks)
+{
     ASSERT_EQ(stack1.isEmpty(), true) << "Expected isEmpty() to return true when empty\n";
     stack1.push(1);
     ASSERT_EQ(stack1.isEmpty(), false) << "Expected isEmpty() to return false when not empty\n";
@@ -79,7 +79,8 @@ TEST_F(StackArrayDoubleTest, topCorrectValueRandom)
         groundTruth.push(value);
     }
 
-    while (!stack1.isEmpty()) {
+    while (!stack1.isEmpty())
+    {
         ASSERT_EQ(stack1.top(), groundTruth.top());
         stack1.pop();
         groundTruth.pop();

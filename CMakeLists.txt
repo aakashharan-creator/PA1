@@ -10,7 +10,7 @@ include_directories(googletest/include) # this is so we can #include <gtest/gtes
 
 add_executable(double_tests double_test.cpp) # add this executable
 add_executable(linear_test linear_test.cpp) # add this executable
-add_executable(linked_test linear_test.cpp) # add this executable
+add_executable(linked_test linked_list.cpp) # add this executable
 
 target_link_libraries(double_tests PRIVATE gtest) # link google test to this executable
 target_link_libraries(linear_test PRIVATE gtest) # link google test to this executable

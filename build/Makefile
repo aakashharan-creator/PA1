@@ -291,7 +291,6 @@ linear_test.o: linear_test.cpp.o
 
 # target to build an object file
 linear_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linked_test.dir/build.make CMakeFiles/linked_test.dir/linear_test.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_test.dir/build.make CMakeFiles/linear_test.dir/linear_test.cpp.o
 .PHONY : linear_test.cpp.o
 
@@ -300,7 +299,6 @@ linear_test.i: linear_test.cpp.i
 
 # target to preprocess a source file
 linear_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linked_test.dir/build.make CMakeFiles/linked_test.dir/linear_test.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_test.dir/build.make CMakeFiles/linear_test.dir/linear_test.cpp.i
 .PHONY : linear_test.cpp.i
 
@@ -309,9 +307,32 @@ linear_test.s: linear_test.cpp.s
 
 # target to generate assembly for a file
 linear_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linked_test.dir/build.make CMakeFiles/linked_test.dir/linear_test.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_test.dir/build.make CMakeFiles/linear_test.dir/linear_test.cpp.s
 .PHONY : linear_test.cpp.s
+
+linked_list.o: linked_list.cpp.o
+.PHONY : linked_list.o
+
+# target to build an object file
+linked_list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linked_test.dir/build.make CMakeFiles/linked_test.dir/linked_list.cpp.o
+.PHONY : linked_list.cpp.o
+
+linked_list.i: linked_list.cpp.i
+.PHONY : linked_list.i
+
+# target to preprocess a source file
+linked_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linked_test.dir/build.make CMakeFiles/linked_test.dir/linked_list.cpp.i
+.PHONY : linked_list.cpp.i
+
+linked_list.s: linked_list.cpp.s
+.PHONY : linked_list.s
+
+# target to generate assembly for a file
+linked_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linked_test.dir/build.make CMakeFiles/linked_test.dir/linked_list.cpp.s
+.PHONY : linked_list.cpp.s
 
 # Help Target
 help:
@@ -339,6 +360,9 @@ help:
 	@echo "... linear_test.o"
 	@echo "... linear_test.i"
 	@echo "... linear_test.s"
+	@echo "... linked_list.o"
+	@echo "... linked_list.i"
+	@echo "... linked_list.s"
 .PHONY : help
 
 

@@ -69,28 +69,28 @@ include CMakeFiles/linked_test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/linked_test.dir/flags.make
 
-CMakeFiles/linked_test.dir/linear_test.cpp.o: CMakeFiles/linked_test.dir/flags.make
-CMakeFiles/linked_test.dir/linear_test.cpp.o: ../linear_test.cpp
-CMakeFiles/linked_test.dir/linear_test.cpp.o: CMakeFiles/linked_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/aakash_personal/Desktop/TexasA&M/TAMU/CSCE 221/Rewritten/PA1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linked_test.dir/linear_test.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/linked_test.dir/linear_test.cpp.o -MF CMakeFiles/linked_test.dir/linear_test.cpp.o.d -o CMakeFiles/linked_test.dir/linear_test.cpp.o -c "/Users/aakash_personal/Desktop/TexasA&M/TAMU/CSCE 221/Rewritten/PA1/linear_test.cpp"
+CMakeFiles/linked_test.dir/linked_list.cpp.o: CMakeFiles/linked_test.dir/flags.make
+CMakeFiles/linked_test.dir/linked_list.cpp.o: ../linked_list.cpp
+CMakeFiles/linked_test.dir/linked_list.cpp.o: CMakeFiles/linked_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/aakash_personal/Desktop/TexasA&M/TAMU/CSCE 221/Rewritten/PA1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linked_test.dir/linked_list.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/linked_test.dir/linked_list.cpp.o -MF CMakeFiles/linked_test.dir/linked_list.cpp.o.d -o CMakeFiles/linked_test.dir/linked_list.cpp.o -c "/Users/aakash_personal/Desktop/TexasA&M/TAMU/CSCE 221/Rewritten/PA1/linked_list.cpp"
 
-CMakeFiles/linked_test.dir/linear_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_test.dir/linear_test.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/aakash_personal/Desktop/TexasA&M/TAMU/CSCE 221/Rewritten/PA1/linear_test.cpp" > CMakeFiles/linked_test.dir/linear_test.cpp.i
+CMakeFiles/linked_test.dir/linked_list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linked_test.dir/linked_list.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/aakash_personal/Desktop/TexasA&M/TAMU/CSCE 221/Rewritten/PA1/linked_list.cpp" > CMakeFiles/linked_test.dir/linked_list.cpp.i
 
-CMakeFiles/linked_test.dir/linear_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_test.dir/linear_test.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/aakash_personal/Desktop/TexasA&M/TAMU/CSCE 221/Rewritten/PA1/linear_test.cpp" -o CMakeFiles/linked_test.dir/linear_test.cpp.s
+CMakeFiles/linked_test.dir/linked_list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linked_test.dir/linked_list.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/aakash_personal/Desktop/TexasA&M/TAMU/CSCE 221/Rewritten/PA1/linked_list.cpp" -o CMakeFiles/linked_test.dir/linked_list.cpp.s
 
 # Object files for target linked_test
 linked_test_OBJECTS = \
-"CMakeFiles/linked_test.dir/linear_test.cpp.o"
+"CMakeFiles/linked_test.dir/linked_list.cpp.o"
 
 # External object files for target linked_test
 linked_test_EXTERNAL_OBJECTS =
 
-linked_test: CMakeFiles/linked_test.dir/linear_test.cpp.o
+linked_test: CMakeFiles/linked_test.dir/linked_list.cpp.o
 linked_test: CMakeFiles/linked_test.dir/build.make
 linked_test: lib/libgtest.a
 linked_test: CMakeFiles/linked_test.dir/link.txt

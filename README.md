@@ -74,10 +74,32 @@ The provided `makefile` grants you some testing functionality with the following
 `make linked_test`
 * Runs the test cases for the StackLinkedList implementation along with a memory check
 
-`make all`
-* Runs all test cases and provides a final score for this assignment
+## Report Requirements
+
+You will write a brief report that includes theoretical analysis, a
+description of your experiments, and discussion of your results. At
+a minimum, your report should include the following sections:
+1. Introduction (5 points): In this section, you should describe the objective of this assignment.
+2. Theoretical Analysis (10 points): In this section, you should provide an analysis of the complexity of a push operation to the extent that has been presented in lecture discussion. Answer the following key points
+* Describe the effect of a push operation and the advantages and disadvantages of the three strategies. 
+* What is the complexity of a push (on average) for the different implementations? 
+* What is the worst case complexity for the different implementations?
+
+**Advisory:** It is understood that a formal discussion of
+algorithmic complexity is yet to come in later modules. With that in mind, treat this as a discussion oriented section and feel free to lean on providing a qualitative analysis based on knowledge of complexity gained thus far from lecture content.
+
+3. Experimental Results (15 points): In this section, you should compare the performance (running time) of the pus () operation in the three different implementations to one another and to their theoretical complexity.
+
+    * Make a plot showing the running time (y-axis) vs. the
+number of push operations (x-axis) for the three
+implementations. You must use some electronic tool
+(matlab, gnuplot, excel, ...) to create the plot.
+Hand-written plots will NOT be accepted.
+    * Provide a discussion of your results, which includes but is not limited to:
+        * Which of the three Stack implementations performs the best? Does it depend on the input? Provide some reasoning behind your observation.
+        * To what extent does the theoretical analysis agree with the experimental results? Attempt to understand and explain any discrepancies you note.
 
 ## Submission Guidelines
 
-1. Push the finished source code files to your repository
-2. Include a PDF of your report explaining your analysis
+1. Include a PDF of your report explaining your analysis titled *<FirstName>-<LastName>-<UIN>-PA1.pdf*
+2. Push the finished source code files and PDF to your repository
