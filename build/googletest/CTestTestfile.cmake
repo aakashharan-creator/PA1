@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /Users/aakash_personal/Desktop/TexasA&M/TAMU/CSCE 221/Rewritten/PA1/googletest
-# Build directory: /Users/aakash_personal/Desktop/TexasA&M/TAMU/CSCE 221/Rewritten/PA1/build/googletest
+# Source directory: /com.docker.devenvironments.code/Test/PA1/googletest
+# Build directory: /com.docker.devenvironments.code/Test/PA1/build/googletest
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

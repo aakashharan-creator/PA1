@@ -102,5 +102,5 @@ Hand-written plots will NOT be accepted.
 
 ## Submission Guidelines
 
-1. Include a PDF of your report explaining your analysis titled *<FirstName>-<LastName>-<UIN>-PA1.pdf*
+1. Include a PDF of your report explaining your analysis titled *FirstName-LastName-UIN-PA1.pdf*
 2. Push the finished source code files and PDF to your repository

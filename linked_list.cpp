@@ -22,7 +22,7 @@ protected:
 
 TEST_F(StackLinkedListTest, isEmptyInitially)
 {
-    ASSERT_EQ(stack1.size(), 10) << "Expected empty stack initially, got non zero size.\n";
+    ASSERT_EQ(stack1.size(), 0) << "Expected empty stack initially, got non zero size.\n";
 }
 
 

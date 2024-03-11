@@ -1,5 +1,0 @@
-if(EXISTS "/Users/aakash_personal/Desktop/TexasA&M/TAMU/CSCE 221/Rewritten/PA1/build/mytests[1]_tests.cmake")
-  include("/Users/aakash_personal/Desktop/TexasA&M/TAMU/CSCE 221/Rewritten/PA1/build/mytests[1]_tests.cmake")
-else()
-  add_test(mytests_NOT_BUILT mytests_NOT_BUILT)
-endif()
