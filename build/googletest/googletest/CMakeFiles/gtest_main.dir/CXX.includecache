@@ -430,9 +430,9 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/com.docker.devenvironments.code/Test/PA1/googletest/googletest/src/gtest_main.cc
+/com.docker.devenvironments.code/rewriting_assignments/PA1/googletest/googletest/src/gtest_main.cc
 cstdio
 -
 gtest/gtest.h
-/com.docker.devenvironments.code/Test/PA1/googletest/googletest/src/gtest/gtest.h
+/com.docker.devenvironments.code/rewriting_assignments/PA1/googletest/googletest/src/gtest/gtest.h
 

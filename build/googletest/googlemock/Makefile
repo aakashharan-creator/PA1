@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /com.docker.devenvironments.code/Test/PA1
+CMAKE_SOURCE_DIR = /com.docker.devenvironments.code/rewriting_assignments/PA1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /com.docker.devenvironments.code/Test/PA1/build
+CMAKE_BINARY_DIR = /com.docker.devenvironments.code/rewriting_assignments/PA1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -156,14 +156,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(CMAKE_COMMAND) -E cmake_progress_start /com.docker.devenvironments.code/Test/PA1/build/CMakeFiles /com.docker.devenvironments.code/Test/PA1/build/googletest/googlemock//CMakeFiles/progress.marks
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/googlemock/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /com.docker.devenvironments.code/Test/PA1/build/CMakeFiles 0
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(CMAKE_COMMAND) -E cmake_progress_start /com.docker.devenvironments.code/rewriting_assignments/PA1/build/CMakeFiles /com.docker.devenvironments.code/rewriting_assignments/PA1/build/googletest/googlemock//CMakeFiles/progress.marks
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/googlemock/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /com.docker.devenvironments.code/rewriting_assignments/PA1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/googlemock/clean
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/googlemock/clean
 .PHONY : clean
 
 # The main clean target
@@ -173,22 +173,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/googlemock/preinstall
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/googlemock/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/googlemock/preinstall
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/googlemock/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 googletest/googlemock/CMakeFiles/gmock_main.dir/rule:
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/googlemock/CMakeFiles/gmock_main.dir/rule
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/googlemock/CMakeFiles/gmock_main.dir/rule
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ gmock_main: googletest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # fast build rule for target.
 gmock_main/fast:
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
 
 # Convenience name for target.
 googletest/googlemock/CMakeFiles/gmock.dir/rule:
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/googlemock/CMakeFiles/gmock.dir/rule
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 googletest/googlemock/CMakeFiles/gmock.dir/rule
 .PHONY : googletest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -213,7 +213,7 @@ gmock: googletest/googlemock/CMakeFiles/gmock.dir/rule
 
 # fast build rule for target.
 gmock/fast:
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/build
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
 src/gmock-all.o: src/gmock-all.cc.o
@@ -222,7 +222,7 @@ src/gmock-all.o: src/gmock-all.cc.o
 
 # target to build an object file
 src/gmock-all.cc.o:
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
 .PHONY : src/gmock-all.cc.o
 
 src/gmock-all.i: src/gmock-all.cc.i
@@ -231,7 +231,7 @@ src/gmock-all.i: src/gmock-all.cc.i
 
 # target to preprocess a source file
 src/gmock-all.cc.i:
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
 .PHONY : src/gmock-all.cc.i
 
 src/gmock-all.s: src/gmock-all.cc.s
@@ -240,7 +240,7 @@ src/gmock-all.s: src/gmock-all.cc.s
 
 # target to generate assembly for a file
 src/gmock-all.cc.s:
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
 .PHONY : src/gmock-all.cc.s
 
 src/gmock_main.o: src/gmock_main.cc.o
@@ -249,7 +249,7 @@ src/gmock_main.o: src/gmock_main.cc.o
 
 # target to build an object file
 src/gmock_main.cc.o:
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
 .PHONY : src/gmock_main.cc.o
 
 src/gmock_main.i: src/gmock_main.cc.i
@@ -258,7 +258,7 @@ src/gmock_main.i: src/gmock_main.cc.i
 
 # target to preprocess a source file
 src/gmock_main.cc.i:
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
 .PHONY : src/gmock_main.cc.i
 
 src/gmock_main.s: src/gmock_main.cc.s
@@ -267,7 +267,7 @@ src/gmock_main.s: src/gmock_main.cc.s
 
 # target to generate assembly for a file
 src/gmock_main.cc.s:
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 .PHONY : src/gmock_main.cc.s
 
 # Help Target
@@ -302,6 +302,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

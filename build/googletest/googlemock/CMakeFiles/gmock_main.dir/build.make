@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /com.docker.devenvironments.code/Test/PA1
+CMAKE_SOURCE_DIR = /com.docker.devenvironments.code/rewriting_assignments/PA1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /com.docker.devenvironments.code/Test/PA1/build
+CMAKE_BINARY_DIR = /com.docker.devenvironments.code/rewriting_assignments/PA1/build
 
 # Include any dependencies generated for this target.
 include googletest/googlemock/CMakeFiles/gmock_main.dir/depend.make
@@ -78,16 +78,16 @@ include googletest/googlemock/CMakeFiles/gmock_main.dir/flags.make
 
 googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: googletest/googlemock/CMakeFiles/gmock_main.dir/flags.make
 googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: ../googletest/googlemock/src/gmock_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/com.docker.devenvironments.code/Test/PA1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
-	cd /com.docker.devenvironments.code/Test/PA1/build/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /com.docker.devenvironments.code/Test/PA1/googletest/googlemock/src/gmock_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/com.docker.devenvironments.code/rewriting_assignments/PA1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /com.docker.devenvironments.code/rewriting_assignments/PA1/googletest/googlemock/src/gmock_main.cc
 
 googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock_main.dir/src/gmock_main.cc.i"
-	cd /com.docker.devenvironments.code/Test/PA1/build/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /com.docker.devenvironments.code/Test/PA1/googletest/googlemock/src/gmock_main.cc > CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /com.docker.devenvironments.code/rewriting_assignments/PA1/googletest/googlemock/src/gmock_main.cc > CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
 
 googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock_main.dir/src/gmock_main.cc.s"
-	cd /com.docker.devenvironments.code/Test/PA1/build/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /com.docker.devenvironments.code/Test/PA1/googletest/googlemock/src/gmock_main.cc -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build/googletest/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /com.docker.devenvironments.code/rewriting_assignments/PA1/googletest/googlemock/src/gmock_main.cc -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 
 # Object files for target gmock_main
 gmock_main_OBJECTS = \
@@ -99,9 +99,9 @@ gmock_main_EXTERNAL_OBJECTS =
 lib/libgmock_main.a: googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
 lib/libgmock_main.a: googletest/googlemock/CMakeFiles/gmock_main.dir/build.make
 lib/libgmock_main.a: googletest/googlemock/CMakeFiles/gmock_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/com.docker.devenvironments.code/Test/PA1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libgmock_main.a"
-	cd /com.docker.devenvironments.code/Test/PA1/build/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean_target.cmake
-	cd /com.docker.devenvironments.code/Test/PA1/build/googletest/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/com.docker.devenvironments.code/rewriting_assignments/PA1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libgmock_main.a"
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean_target.cmake
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build/googletest/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 googletest/googlemock/CMakeFiles/gmock_main.dir/build: lib/libgmock_main.a
@@ -109,10 +109,10 @@ googletest/googlemock/CMakeFiles/gmock_main.dir/build: lib/libgmock_main.a
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/build
 
 googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
-	cd /com.docker.devenvironments.code/Test/PA1/build/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean.cmake
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean.cmake
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/clean
 
 googletest/googlemock/CMakeFiles/gmock_main.dir/depend:
-	cd /com.docker.devenvironments.code/Test/PA1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /com.docker.devenvironments.code/Test/PA1 /com.docker.devenvironments.code/Test/PA1/googletest/googlemock /com.docker.devenvironments.code/Test/PA1/build /com.docker.devenvironments.code/Test/PA1/build/googletest/googlemock /com.docker.devenvironments.code/Test/PA1/build/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /com.docker.devenvironments.code/rewriting_assignments/PA1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /com.docker.devenvironments.code/rewriting_assignments/PA1 /com.docker.devenvironments.code/rewriting_assignments/PA1/googletest/googlemock /com.docker.devenvironments.code/rewriting_assignments/PA1/build /com.docker.devenvironments.code/rewriting_assignments/PA1/build/googletest/googlemock /com.docker.devenvironments.code/rewriting_assignments/PA1/build/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 

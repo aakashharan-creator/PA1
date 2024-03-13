@@ -430,17 +430,17 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/com.docker.devenvironments.code/Test/PA1/AbstractStack.h
+/com.docker.devenvironments.code/rewriting_assignments/PA1/AbstractStack.h
 stdexcept
 -
 iostream
 -
 
-/com.docker.devenvironments.code/Test/PA1/StackArrayLinear.h
+/com.docker.devenvironments.code/rewriting_assignments/PA1/StackArrayLinear.h
 AbstractStack.h
-/com.docker.devenvironments.code/Test/PA1/AbstractStack.h
+/com.docker.devenvironments.code/rewriting_assignments/PA1/AbstractStack.h
 
-/com.docker.devenvironments.code/Test/PA1/linear_test.cpp
+/com.docker.devenvironments.code/rewriting_assignments/PA1/linear_test.cpp
 iostream
 -
 gtest/gtest.h
@@ -450,5 +450,5 @@ stack
 cstdlib
 -
 StackArrayLinear.h
-/com.docker.devenvironments.code/Test/PA1/StackArrayLinear.h
+/com.docker.devenvironments.code/rewriting_assignments/PA1/StackArrayLinear.h
 

@@ -1,5 +1,5 @@
-if(EXISTS "/com.docker.devenvironments.code/Test/PA1/build/linked_test[1]_tests.cmake")
-  include("/com.docker.devenvironments.code/Test/PA1/build/linked_test[1]_tests.cmake")
+if(EXISTS "/com.docker.devenvironments.code/rewriting_assignments/PA1/build/linked_test[1]_tests.cmake")
+  include("/com.docker.devenvironments.code/rewriting_assignments/PA1/build/linked_test[1]_tests.cmake")
 else()
   add_test(linked_test_NOT_BUILT linked_test_NOT_BUILT)
 endif()

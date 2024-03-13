@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/com.docker.devenvironments.code/Test/PA1/googletest/googletest/include -I/com.docker.devenvironments.code/Test/PA1/googletest/googletest
+CXX_INCLUDES = -I/com.docker.devenvironments.code/rewriting_assignments/PA1/googletest/googletest/include -I/com.docker.devenvironments.code/rewriting_assignments/PA1/googletest/googletest
 
 CXX_FLAGS = -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
 

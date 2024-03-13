@@ -23,6 +23,6 @@ CMakeFiles/linear_test.dir/linear_test.cpp.o
  ../googletest/googletest/include/gtest/internal/gtest-port.h
  ../googletest/googletest/include/gtest/internal/gtest-string.h
  ../googletest/googletest/include/gtest/internal/gtest-type-util.h
- /com.docker.devenvironments.code/Test/PA1/AbstractStack.h
- /com.docker.devenvironments.code/Test/PA1/StackArrayLinear.h
- /com.docker.devenvironments.code/Test/PA1/linear_test.cpp
+ /com.docker.devenvironments.code/rewriting_assignments/PA1/AbstractStack.h
+ /com.docker.devenvironments.code/rewriting_assignments/PA1/StackArrayLinear.h
+ /com.docker.devenvironments.code/rewriting_assignments/PA1/linear_test.cpp

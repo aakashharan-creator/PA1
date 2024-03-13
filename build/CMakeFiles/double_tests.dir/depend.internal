@@ -23,6 +23,6 @@ CMakeFiles/double_tests.dir/double_test.cpp.o
  ../googletest/googletest/include/gtest/internal/gtest-port.h
  ../googletest/googletest/include/gtest/internal/gtest-string.h
  ../googletest/googletest/include/gtest/internal/gtest-type-util.h
- /com.docker.devenvironments.code/Test/PA1/AbstractStack.h
- /com.docker.devenvironments.code/Test/PA1/StackArrayDouble.h
- /com.docker.devenvironments.code/Test/PA1/double_test.cpp
+ /com.docker.devenvironments.code/rewriting_assignments/PA1/AbstractStack.h
+ /com.docker.devenvironments.code/rewriting_assignments/PA1/StackArrayDouble.h
+ /com.docker.devenvironments.code/rewriting_assignments/PA1/double_test.cpp

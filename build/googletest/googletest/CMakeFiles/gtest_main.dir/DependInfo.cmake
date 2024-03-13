@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/com.docker.devenvironments.code/Test/PA1/googletest/googletest/src/gtest_main.cc" "/com.docker.devenvironments.code/Test/PA1/build/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+  "/com.docker.devenvironments.code/rewriting_assignments/PA1/googletest/googletest/src/gtest_main.cc" "/com.docker.devenvironments.code/rewriting_assignments/PA1/build/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,7 +16,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/com.docker.devenvironments.code/Test/PA1/build/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/com.docker.devenvironments.code/rewriting_assignments/PA1/build/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

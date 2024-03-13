@@ -430,17 +430,17 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/com.docker.devenvironments.code/Test/PA1/AbstractStack.h
+/com.docker.devenvironments.code/rewriting_assignments/PA1/AbstractStack.h
 stdexcept
 -
 iostream
 -
 
-/com.docker.devenvironments.code/Test/PA1/StackLinkedList.h
+/com.docker.devenvironments.code/rewriting_assignments/PA1/StackLinkedList.h
 AbstractStack.h
-/com.docker.devenvironments.code/Test/PA1/AbstractStack.h
+/com.docker.devenvironments.code/rewriting_assignments/PA1/AbstractStack.h
 
-/com.docker.devenvironments.code/Test/PA1/linked_list.cpp
+/com.docker.devenvironments.code/rewriting_assignments/PA1/linked_list.cpp
 iostream
 -
 gtest/gtest.h
@@ -450,5 +450,5 @@ stack
 cstdlib
 -
 StackLinkedList.h
-/com.docker.devenvironments.code/Test/PA1/StackLinkedList.h
+/com.docker.devenvironments.code/rewriting_assignments/PA1/StackLinkedList.h
 

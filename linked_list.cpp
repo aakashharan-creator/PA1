@@ -6,7 +6,6 @@
 #include "StackLinkedList.h"
 
 using namespace std;
-
 class StackLinkedListTest : public testing::Test
 {
 protected:
@@ -15,16 +14,14 @@ protected:
         size = 1000;
     }
 
-    StackLinkedList<int> stack1;
-    StackLinkedList<int> stack2;
     size_t size;
+    StackLinkedList<int> stack1;
 };
 
 TEST_F(StackLinkedListTest, isEmptyInitially)
 {
-    ASSERT_EQ(stack1.size(), 0) << "Expected empty stack initially, got non zero size.\n";
+    ASSERT_EQ(stack1.size(), 0) << "Expected empty stack initially, but got non zero size.\n";
 }
-
 
 TEST_F(StackLinkedListTest, popThrowsExceptionWhenEmpty)
 {
@@ -41,10 +38,18 @@ TEST_F(StackLinkedListTest, correctSizeAtPush)
     }
 }
 
-TEST_F(StackLinkedListTest, isEmptyWorks) {
+TEST_F(StackLinkedListTest, isEmptyWorks)
+{
     ASSERT_EQ(stack1.isEmpty(), true) << "Expected isEmpty() to return true when empty\n";
     stack1.push(1);
     ASSERT_EQ(stack1.isEmpty(), false) << "Expected isEmpty() to return false when not empty\n";
+}
+
+TEST_F(StackLinkedListTest, popWorks)
+{
+    stack1.push(1);
+    ASSERT_NO_THROW(stack1.pop()) << "Received exception when none was expected.\n";
+    ASSERT_EQ(stack1.isEmpty(), true) << "Expected isEmpty() to return false when not empty\n";
 }
 
 TEST_F(StackLinkedListTest, topThrowsExceptionWhenEmpty)
@@ -59,6 +64,8 @@ TEST_F(StackLinkedListTest, topThrowsExceptionWhenEmpty)
 
 TEST_F(StackLinkedListTest, topCorrectValue)
 {
+    StackLinkedList<int> stack2;
+    size = 1000;
     for (int i = 0; i < size; i++)
         stack2.push(i);
 
@@ -81,10 +88,57 @@ TEST_F(StackLinkedListTest, topCorrectValueRandom)
         groundTruth.push(value);
     }
 
-    while (!stack1.isEmpty()) {
+    while (!stack1.isEmpty())
+    {
         ASSERT_EQ(stack1.top(), groundTruth.top());
         stack1.pop();
         groundTruth.pop();
+    }
+}
+
+TEST_F(StackLinkedListTest, copyConstructorWorks)
+{
+    srand(1);
+
+    for (int i = 0; i < size; i++)
+    {
+        int value = rand() % 10000;
+        stack1.push(value);
+    }
+
+    EXPECT_NO_THROW(StackLinkedList<int> temp = StackLinkedList<int>(stack1)) << "Error: encountered an exception when none was expected.\n";
+    StackLinkedList<int> stack2 = StackLinkedList<int>(stack1);
+
+    ASSERT_EQ(stack2.size(), stack1.size()) << "Error: mismatch in size between copied stack and old stack.\n";
+
+    while (!stack1.isEmpty())
+    {
+        ASSERT_EQ(stack1.top(), stack2.top()) << "Error: mismatch in values in stack.\n";
+        ASSERT_NO_THROW(stack1.pop()) << "Error: received exception when none was expected.\n";
+        ASSERT_NO_THROW(stack2.pop()) << "Error: received exception when none was expected.\n";
+    }
+}
+
+TEST_F(StackLinkedListTest, copyAssignmentWorks)
+{
+    srand(1);
+
+    for (int i = 0; i < size; i++)
+    {
+        int value = rand() % 10000;
+        stack1.push(value);
+    }
+
+    EXPECT_NO_THROW(StackLinkedList<int> temp = stack1) << "Error: encountered an exception when none was expected.\n";
+    StackLinkedList<int> stack2 = stack1;
+
+    ASSERT_EQ(stack2.size(), stack1.size()) << "Error: mismatch in size between copied stack and old stack.\n";
+
+    while (!stack1.isEmpty())
+    {
+        ASSERT_EQ(stack1.top(), stack2.top()) << "Error: mismatch in values in stack.\n";
+        ASSERT_NO_THROW(stack1.pop()) << "Error: received exception when none was expected.\n";
+        ASSERT_NO_THROW(stack2.pop()) << "Error: received exception when none was expected.\n";
     }
 }
 

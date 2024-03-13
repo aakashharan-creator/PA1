@@ -656,13 +656,13 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/com.docker.devenvironments.code/Test/PA1/googletest/googlemock/src/gmock_main.cc
+/com.docker.devenvironments.code/rewriting_assignments/PA1/googletest/googlemock/src/gmock_main.cc
 iostream
 -
 gmock/gmock.h
-/com.docker.devenvironments.code/Test/PA1/googletest/googlemock/src/gmock/gmock.h
+/com.docker.devenvironments.code/rewriting_assignments/PA1/googletest/googlemock/src/gmock/gmock.h
 gtest/gtest.h
-/com.docker.devenvironments.code/Test/PA1/googletest/googlemock/src/gtest/gtest.h
+/com.docker.devenvironments.code/rewriting_assignments/PA1/googletest/googlemock/src/gtest/gtest.h
 tchar.h
 -
 

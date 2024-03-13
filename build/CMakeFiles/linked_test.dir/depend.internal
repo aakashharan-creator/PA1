@@ -23,6 +23,6 @@ CMakeFiles/linked_test.dir/linked_list.cpp.o
  ../googletest/googletest/include/gtest/internal/gtest-port.h
  ../googletest/googletest/include/gtest/internal/gtest-string.h
  ../googletest/googletest/include/gtest/internal/gtest-type-util.h
- /com.docker.devenvironments.code/Test/PA1/AbstractStack.h
- /com.docker.devenvironments.code/Test/PA1/StackLinkedList.h
- /com.docker.devenvironments.code/Test/PA1/linked_list.cpp
+ /com.docker.devenvironments.code/rewriting_assignments/PA1/AbstractStack.h
+ /com.docker.devenvironments.code/rewriting_assignments/PA1/StackLinkedList.h
+ /com.docker.devenvironments.code/rewriting_assignments/PA1/linked_list.cpp
