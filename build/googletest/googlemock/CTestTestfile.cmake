@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /com.docker.devenvironments.code/rewriting_assignments/PA1/googletest/googlemock
-# Build directory: /com.docker.devenvironments.code/rewriting_assignments/PA1/build/googletest/googlemock
+# Source directory: /Users/aakash_personal/Desktop/TexasA&M/TAMU/CSCE 221/PA1/googletest/googlemock
+# Build directory: /Users/aakash_personal/Desktop/TexasA&M/TAMU/CSCE 221/PA1/build/googletest/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

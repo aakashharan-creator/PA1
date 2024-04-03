@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/double_tests.dir/double_test.cpp.o"
+  "CMakeFiles/double_tests.dir/double_test.cpp.o.d"
   "double_tests"
   "double_tests.pdb"
   "double_tests[1]_tests.cmake"

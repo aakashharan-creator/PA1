@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/double_tests.dir/double_test.cpp.o -o double_tests  lib/libgtest.a -lpthread 
+/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/double_tests.dir/double_test.cpp.o -o double_tests  lib/libgtest.a 
